@@ -1,0 +1,83 @@
+{
+  "music.enderscape.biome.celestial_grove": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.end",
+        "type": "event"
+      }
+    ]
+  },
+  "music.enderscape.biome.corrupt_barrens": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.end",
+        "type": "event"
+      }
+    ]
+  },
+  "music.enderscape.biome.default_end": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.end",
+        "type": "event"
+      }
+    ]
+  },
+  "music.enderscape.biome.magnia_fields": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.end",
+        "type": "event"
+      }
+    ]
+  },
+  "music.enderscape.biome.veiled_woodlands": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.end",
+        "type": "event"
+      }
+    ]
+  },
+  "music.enderscape.biome.void_depths": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.end",
+        "type": "event"
+      }
+    ]
+  },
+  "music.enderscape.biome.void_skies": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.end",
+        "type": "event"
+      }
+    ]
+  },
+  "music.enderscape.biome.void_sky_islands": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.end",
+        "type": "event"
+      }
+    ]
+  },
+  "music.enderscape.structure.end_city": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music.end",
+        "type": "event"
+      }
+    ]
+  }
+}
