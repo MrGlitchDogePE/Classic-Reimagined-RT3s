@@ -26,7 +26,7 @@ float linear_fog_value(float vertexDistance, float fogStart, float fogEnd) {
 
 // beta like behavior fog
 float total_fog_value(float sphericalVertexDistance, float cylindricalVertexDistance, float environmentalStart, float environmantalEnd, float renderDistanceStart, float renderDistanceEnd) {
-    return mix(linear_fog_value(sphericalVertexDistance, environmentalStart, environmantalEnd), linear_fog_value(cylindricalVertexDistance, mix(renderDistanceStart, environmentalStart, 0.75), renderDistanceEnd),
+    return mix(linear_fog_value(sphericalVertexDistance, environmentalStart, environmantalEnd), linear_fog_value(cylindricalVertexDistance, clamp(mix(renderDistanceStart, environmentalStart, 0.75), 0, 2048), renderDistanceEnd),
     clamp((floor(abs(environmantalEnd / 16) - 6)) + 1, 0, 1));
 }
 
