@@ -11,7 +11,7 @@ layout(std140) uniform Fog {
 };
 
 float linear_fog_value(float vertexDistance, float fogStart, float fogEnd) {
-    fogEnd *= (31.0/30); // Adjust for better visual match to original beta fog
+    fogEnd *= (30.5/30); // Adjust for better visual match to original beta fog
     if (vertexDistance <= fogStart) {
         return 0.0;
     } else if (vertexDistance >= fogEnd) {
