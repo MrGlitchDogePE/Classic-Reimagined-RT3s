@@ -158,10 +158,19 @@
       {
         "directory": "v10.0.10-1.21.11-Classic_Reimagined_10_SE_2",
         "formats": [
-          70,
+          75,
           2147483647
         ],
-        "min_format": 70,
+        "min_format": 75,
+        "max_format": 2147483647
+      },
+      {
+        "directory": "v10.0.11_1-Classic_Reimagined_10_SE_2.1",
+        "formats": [
+          77,
+          2147483647
+        ],
+        "min_format": 77,
         "max_format": 2147483647
       }
     ]
