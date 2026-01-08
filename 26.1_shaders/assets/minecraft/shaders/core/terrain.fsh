@@ -57,8 +57,8 @@ void main() {
 		color,
 		sphericalVertexDistance,
 		cylindricalVertexDistance,
-		FogEnvironmentalStart * ChunkVisibility,
-		FogEnvironmentalEnd * ChunkVisibility,
+		FogEnvironmentalStart,
+		FogEnvironmentalEnd,
 		FogRenderDistanceStart * ChunkVisibility,
 		FogRenderDistanceEnd * ChunkVisibility,
 		FogColor
